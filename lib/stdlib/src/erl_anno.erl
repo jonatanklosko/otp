@@ -100,6 +100,7 @@ for manipulating annotations in abstract code.
 -type annotation() :: {'file', filename()}
                     | {'generated', generated()}
                     | {'location', location()}
+                    | {'end_location', location()}
                     | {'record', record()}
                     | {'text', string()}.
 
